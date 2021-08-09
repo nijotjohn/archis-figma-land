@@ -5,4 +5,15 @@
 
 // custom imports
 
+@import './base/fonts';
+@import './base/vars';
+@import './base/mixins';
 @import './base/base';
+
+@import './modules/card';
+
+@import './layout/header/header';
+
+@import './layout/main/main';
+
+@import './layout/footer/footer';
