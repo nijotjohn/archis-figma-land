@@ -6,4 +6,7 @@
   &__logo{
     @include img-fluid();
   }
+  &__login-btn{
+    border: solid 1px $white;
+  }
 }
