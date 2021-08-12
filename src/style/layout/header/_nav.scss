@@ -1,0 +1,19 @@
+.nav{
+  height: 100%;
+  display: block;
+  &__link{
+    color: $white;
+    text-decoration: none;
+    border-bottom: solid 1px transparent;
+    transition: all ease 300ms;
+    margin-right: 50px;
+    display: inline-block;
+    @include relative_vertical_center();
+    &:hover{
+      color: $white;
+      text-decoration: none;
+      border-bottom-color: $white;
+      transition: all ease 300ms;
+    }
+  }
+}
