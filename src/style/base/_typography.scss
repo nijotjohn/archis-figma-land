@@ -1,0 +1,24 @@
+// headings
+h1{
+  font-size: 80px;
+  line-height: 88px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  margin-bottom: 35px;
+}
+
+// para
+p{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+// styler classes
+.color-white{
+  color: $white;
+}
+.color-black{
+  color: $black;
+}
