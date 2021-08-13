@@ -1,0 +1,24 @@
+.button{
+
+  padding: 10px 30px;
+  display: inline-block;
+  color: $white;
+  text-decoration: none;
+  transition: all ease 300ms;
+  border: solid 1px transparent;
+  background: transparent;
+
+  &:hover{
+    background: $white;
+    color: $black;
+  }
+
+  &_black{
+    border: solid 1px $white;
+    background: $black;
+  }
+  &_blue{
+    border: solid 1px $blue-1;
+    background: $blue-1;
+  }
+}

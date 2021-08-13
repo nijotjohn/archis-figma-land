@@ -9,16 +9,8 @@
     @include img-fluid();
   }
   &__login-btn{
-    border: solid 1px $white;
-    padding: 5px 15px;
-    color: $white;
-    text-decoration: none;
-    transition: all ease 300ms;
-    display: inline-block;
+    @extend .button;
+    @extend .button_black;
     @include relative_vertical_center();
-    &:hover{
-      background: $white;
-      color: $black;
-    }
   }
 }
