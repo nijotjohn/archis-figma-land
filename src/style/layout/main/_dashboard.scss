@@ -1,11 +1,21 @@
 .dashboard{
 
- &__second-level{
-  margin-top: -242px;
- }
- &__3rd-img{
-   margin-top: -26px;
-   margin-left: -17px;
- }
+  position: relative;
+
+  &__second-level{
+    margin-top: -242px;
+  }
+  &__3rd-img{
+    margin-top: -26px;
+    margin-left: -17px;
+  }
+  &__overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 60%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e 66.15%);
+  }
 
 }
